@@ -184,5 +184,12 @@ $args = array(
 	'flex-height' => true,
 	'default-image' => get_template_directory_uri() . '/images/clouds.jpg',
    );
-   add_theme_support( 'custom-header', $args );
+   add_theme_support( 'custom-header', $args ); 
+
+   //custom nav menu
+   function underscores_register_menu(){
+	   register_nav_menu('top-menu', __('Top Navigation Menu'));
+
+   }
+   add_action('init', 'underscores_register_menu');
 
