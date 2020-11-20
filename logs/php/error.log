@@ -1,2 +1,20 @@
 [19-Nov-2020 22:02:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting '(' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 192
 [19-Nov-2020 22:08:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 192
+[20-Nov-2020 21:57:24 UTC] PHP Fatal error:  Cannot redeclare underscores_widgets_init() (previously declared in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php:124) in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 200
+[20-Nov-2020 21:57:24 UTC] PHP Stack trace:
+[20-Nov-2020 21:57:24 UTC] PHP   1. {main}() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2020 21:57:24 UTC] PHP   2. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2020 21:57:24 UTC] PHP   3. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-load.php:37
+[20-Nov-2020 21:57:24 UTC] PHP   4. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-config.php:77
+[20-Nov-2020 21:59:28 UTC] PHP Fatal error:  Cannot redeclare underscores_widgets_init() (previously declared in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php:124) in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 200
+[20-Nov-2020 21:59:28 UTC] PHP Stack trace:
+[20-Nov-2020 21:59:28 UTC] PHP   1. {main}() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2020 21:59:28 UTC] PHP   2. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2020 21:59:28 UTC] PHP   3. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-load.php:37
+[20-Nov-2020 21:59:28 UTC] PHP   4. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-config.php:77
+[20-Nov-2020 22:01:32 UTC] PHP Fatal error:  Cannot redeclare underscores_widgets_init() (previously declared in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php:124) in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 201
+[20-Nov-2020 22:01:32 UTC] PHP Stack trace:
+[20-Nov-2020 22:01:32 UTC] PHP   1. {main}() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:0
+[20-Nov-2020 22:01:32 UTC] PHP   2. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:22
+[20-Nov-2020 22:01:32 UTC] PHP   3. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-load.php:37
+[20-Nov-2020 22:01:32 UTC] PHP   4. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-config.php:77

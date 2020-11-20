@@ -193,3 +193,14 @@ $args = array(
    }
    add_action('init', 'underscores_register_menu');
 
+   function underscores_widgets_init(){
+	   register_sidebar( array (
+			'name' => 'Main Sidebar',
+			'id' => 'main_sidebar_widget',
+			'before_widget' => '<aside>',
+			'after_widget' => '</aside>',
+	   ));
+   }
+
+
+
