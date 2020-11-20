@@ -18,3 +18,4 @@
 [20-Nov-2020 22:01:32 UTC] PHP   2. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-admin/admin-ajax.php:22
 [20-Nov-2020 22:01:32 UTC] PHP   3. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-load.php:37
 [20-Nov-2020 22:01:32 UTC] PHP   4. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-config.php:77
+[20-Nov-2020 22:03:32 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 202
