@@ -193,7 +193,7 @@ $args = array(
    }
    add_action('init', 'underscores_register_menu');
 
-   //add widget
+   //add widget 
    function main_widgets_init(){
 	   register_sidebar( array (
 			'name' => 'Main Sidebar',
@@ -206,5 +206,6 @@ $args = array(
    }
    add_action( 'widgets_init', 'main_widgets_init');
 
+ 
 
 
