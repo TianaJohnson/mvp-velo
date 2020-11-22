@@ -19,3 +19,12 @@
 [20-Nov-2020 22:01:32 UTC] PHP   3. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-load.php:37
 [20-Nov-2020 22:01:32 UTC] PHP   4. require_once() /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-config.php:77
 [20-Nov-2020 22:03:32 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 202
+[22-Nov-2020 19:50:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function edit_post_link() in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/template-parts/content-page.php:38
+Stack trace:
+#0 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-includes/template.php(732): require()
+#1 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-includes/template.php(676): load_template('/Users/tianajoh...', false, Array)
+#2 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/page.php(24): get_template_part('template-parts/...', 'page')
+#4 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-includes/template-loader.php(106): include('/Users/tianajoh...')
+#5 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-blog-header.php(19): require_once('/Users/tianajoh...')
+#6 /Users/tianajohnson/Local Sites/mvp-blog/app/public/index.php(17) in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/template-parts/content-page.php on line 38

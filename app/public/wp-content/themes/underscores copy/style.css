@@ -1027,8 +1027,11 @@ textarea {
 .site-main {
 	margin: 20px;
 }
+.edit-link {
+	margin: 10px;
+}
 
-.cat-links{
+.cat-links {
 	margin: 10px;
 }
 
