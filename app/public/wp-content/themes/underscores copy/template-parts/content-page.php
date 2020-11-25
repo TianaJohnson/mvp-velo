@@ -25,6 +25,7 @@
 	</header><!-- .entry-header -->
 
 	<?php underscores_post_thumbnail(); ?>
+	<?php get_template_part( 'template-parts/navigation' ); ?>
 
 	<div class="entry-content">
 		<?php

@@ -99,13 +99,63 @@
 }() );
 
 // hamburger menu
-let navBar = document.querySelector(".navBar")
-let ham = document. querySelector(".ham")
+/**
+ * Expanding Navigation Menu
+ */
 
-ham.addEventListener("click", toggleHamburger)
+(function() {
 
-// toggles hamburger menu in and out when clicking on the hamburger
-function toggleHamburger(){
-	navbar.classList.toggle("showNav")
-	ham.classList.toggle("showClose")
-  }
+	var body = document.body,
+		content = document.querySelector( '.page-wrap' ),
+		openbtn = document.getElementById( 'open-button' ),
+		closebtn = document.getElementById( 'close-button' ),
+		isOpen = false,
+
+		morphEl = document.getElementById( 'morph-shape' ),
+		s = Snap( morphEl.querySelector( 'svg' ) );
+		path = s.select( 'path' );
+		initialPath = this.path.attr('d'),
+		pathOpen = morphEl.getAttribute( 'data-morph-open' ),
+		isAnimating = false;
+
+	function init() {
+		initEvents();
+	}
+
+	function initEvents() {
+		openbtn.addEventListener( 'click', toggleMenu );
+		if( closebtn ) {
+			closebtn.addEventListener( 'click', toggleMenu );
+		}
+
+		// close the menu element if the target it´s not the menu element or one of its descendants..
+		content.addEventListener( 'click', function(ev) {
+			var target = ev.target;
+			if( isOpen && target !== openbtn ) {
+				toggleMenu();
+			}
+		} );
+	}
+
+	function toggleMenu() {
+		if( isAnimating ) return false;
+		isAnimating = true;
+		if( isOpen ) {
+			classie.remove( body, 'show-menu' );
+			// animate path
+			setTimeout( function() {
+				// reset path
+				path.attr( 'd', initialPath );
+				isAnimating = false;
+			}, 300 );
+		}
+		else {
+			classie.add( body, 'show-menu' );
+			// animate path
+			path.animate( { 'path' : pathOpen }, 400, mina.easeinout, function() { isAnimating = false; } );
+		}
+		isOpen = !isOpen;
+	}
+
+	init();
+
