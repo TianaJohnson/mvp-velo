@@ -99,11 +99,13 @@
 }() );
 
 // hamburger menu
-function myFunction() {
-	let x = document.getElementById("recent-posts-3");
-	if (x.style.display === "block") {
-	  x.style.display = "none";
-	} else {
-	  x.style.display = "block";
-	}
+let navBar = document.querySelector(".navBar")
+let ham = document. querySelector(".ham")
+
+ham.addEventListener("click", toggleHamburger)
+
+// toggles hamburger menu in and out when clicking on the hamburger
+function toggleHamburger(){
+	navbar.classList.toggle("showNav")
+	ham.classList.toggle("showClose")
   }

@@ -1039,3 +1039,45 @@ textarea {
 	font-family: 'Amatic SC', cursive;
 	font-size: 50px;
 }
+
+
+
+.ham {
+	position: absolute;
+	/* always keep ham on top of everything */
+	z-index: 1000;
+	top: 20px;
+	right: 20px;
+	width: 36px;
+	height: 36px;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+	/* show the menu image */
+	background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+	background-size: 100%;
+}
+/* change ham image to close */
+.showClose {
+	background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+  }
+
+  .navBar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	color: white;
+	/* hide the menu above the screen by default */
+	transform: translateY(-100%);
+	/* transition adds a little animation when sliding in and out the menu */
+	transition: transform 0.2s ease;
+  }
+
+  .showNav {
+	/* show the menu */
+	transform: translateY(0);
+  }
