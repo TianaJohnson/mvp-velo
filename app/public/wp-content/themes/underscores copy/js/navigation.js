@@ -100,7 +100,7 @@
 
 // hamburger menu
 function myFunction() {
-	var x = document.getElementById("myLinks");
+	let x = document.getElementById("recent-posts-3");
 	if (x.style.display === "block") {
 	  x.style.display = "none";
 	} else {

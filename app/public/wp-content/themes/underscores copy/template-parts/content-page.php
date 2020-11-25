@@ -52,8 +52,7 @@
 				'</span>'
 			);
 			?>
-			<!-- this is an addition widget are, can be moved around -->
-			<?php  if(dynamic_sidebar('main_sidebar_widget')) : else : endif;?>
+
 		</footer><!-- .entry-footer -->
 	<?php endif; ?>
 </article><!-- #post-<?php the_ID(); ?> -->
