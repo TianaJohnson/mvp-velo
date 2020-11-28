@@ -12,7 +12,6 @@
 
 <div>
 <!-- this is an addition widget are, can be moved around -->
-<button class="ham"></button>
 	<nav class="navBar"></nav>
 
 		<?php if (dynamic_sidebar('main_sidebar_widget')) : else : endif; ?>
@@ -25,7 +24,7 @@
 	</header><!-- .entry-header -->
 
 	<?php underscores_post_thumbnail(); ?>
-	<!-- <?php get_template_part( 'template-parts/navigation' ); ?> -->
+	<?php get_template_part( 'template-parts/navigation' ); ?>
 
 	<div class="entry-content">
 		<?php
