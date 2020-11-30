@@ -24,19 +24,19 @@
 </head>
 
 <body <?php body_class(); ?>>
-
 <?php wp_body_open(); ?>
+<?php get_template_part( 'template-parts/navigation' ); ?><!-- #site-navigation -->
 <div id="page" class="site">
 
 	<!-- Custom added header image div-->
 	<div class="custom-header-container">
 		<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" class="header-img">
 		<div class="top-left">VELO COVEN</div>
-		<?php get_template_part( 'template-parts/navigation' ); ?><!-- #site-navigation -->
+		
 	</div>
 
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'underscores' ); ?></a>
-
+	
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php

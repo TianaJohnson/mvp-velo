@@ -99,65 +99,21 @@
 }() );
 
 // hamburger menu
-/**
- /**
- * Expanding Navigation Menu
- */
-
-(function() {
-
-	var body = document.body,
-		content = document.querySelector( '.page-wrap' ),
-		openbtn = document.getElementById( 'open-button' ),
-		closebtn = document.getElementById( 'close-button' ),
-		isOpen = false,
-
-		morphEl = document.getElementById( 'morph-shape' ),
-		s = Snap( morphEl.querySelector( 'svg' ) );
-		path = s.select( 'path' );
-		initialPath = this.path.attr('d'),
-		pathOpen = morphEl.getAttribute( 'data-morph-open' ),
-		isAnimating = false;
-
-	function init() {
-		initEvents();
-	}
-
-	function initEvents() {
-		openbtn.addEventListener( 'click', toggleMenu );
-		if( closebtn ) {
-			closebtn.addEventListener( 'click', toggleMenu );
-		}
-
-		// close the menu element if the target it´s not the menu element or one of its descendants..
-		content.addEventListener( 'click', function(ev) {
-			var target = ev.target;
-			if( isOpen && target !== openbtn ) {
-				toggleMenu();
-			}
-		} );
-	}
-
-	function toggleMenu() {
-		if( isAnimating ) return false;
-		isAnimating = true;
-		if( isOpen ) {
-			classie.remove( body, 'show-menu' );
-			// animate path
-			setTimeout( function() {
-				// reset path
-				path.attr( 'd', initialPath );
-				isAnimating = false;
-			}, 300 );
-		}
-		else {
-			classie.add( body, 'show-menu' );
-			// animate path
-			path.animate( { 'path' : pathOpen }, 400, mina.easeinout, function() { isAnimating = false; } );
-		}
-		isOpen = !isOpen;
-	}
-
-	init();
-})();
-//  going to try this over as a normal hamburger -->
+function toggleMenu(){
+	let openBtn = document.querySelector(".openSideNav");
+openBtn.addEventListener("click", () => {
+   showNav();
+});
+let closeBtn = document.querySelector(".closeBtn");
+closeBtn.addEventListener("click", () => {
+   hideNav();
+});
+function showNav() {
+   document.querySelector(".sideNav").style.width = "300px";
+   document.querySelector('.main-content').style.marginLeft = "300px";
+}
+function hideNav() {
+   document.querySelector(".sideNav").style.width = "0";
+   document.querySelector('.main-content').style.marginLeft = "0px";
+}
+}
