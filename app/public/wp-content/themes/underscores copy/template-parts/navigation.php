@@ -1,9 +1,9 @@
+<div class="menu-wrap">
 
-    <div class="menu-wrapper">
+  <div class="nav-menu">
+    <div class="menu-container">
 
       <nav id="site-navigation" class="main-navigation">
-
-      <div class="nav-menu">
 
         <?php
         wp_nav_menu(
@@ -18,4 +18,4 @@
     </div>
 
   </div>
-</di
+</div>
