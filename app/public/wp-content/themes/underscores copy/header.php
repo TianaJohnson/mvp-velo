@@ -38,6 +38,18 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'underscores' ); ?></a>
 	
 	<header id="masthead" class="site-header">
+
+	<div class="menu">
+			<button class="menu-button" id="open-button">
+			<span>
+				<div></div>
+				<div></div>
+				<div></div>
+			</span>
+			Open Menu
+			</button>
+		</div>
+		
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
