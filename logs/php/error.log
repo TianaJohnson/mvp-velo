@@ -35,3 +35,10 @@ Stack trace:
 [06-Dec-2020 12:23:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
 [06-Dec-2020 12:25:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
 [06-Dec-2020 12:27:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 12:38:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 208
+[06-Dec-2020 12:38:48 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 208
+[06-Dec-2020 14:23:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 222
+[06-Dec-2020 14:23:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 222
+[06-Dec-2020 14:23:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 222
+[06-Dec-2020 17:50:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 222
+[06-Dec-2020 17:50:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 222

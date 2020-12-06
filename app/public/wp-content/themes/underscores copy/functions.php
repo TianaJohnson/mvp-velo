@@ -206,13 +206,18 @@ $args = array(
    }
    add_action( 'widgets_init', 'main_widgets_init');
 
+
+
+   //add custom block
+
 	   // Check function exists.
-	   if( function_exists('acf_register_block_type') ) {
-		add_action('acf/init', 'my_acf_init_block_types');
+	   if( function_exists('acf_register_block_type')) {
+		add_action('acf/init', 'register_acf_block_type');
+	   }
+
+	   function register_acf_block_type(){
+		   acf_register_block_type( array (
+			   
+		   ))
 	   }
    
-	
-		   
-	 
-
-
