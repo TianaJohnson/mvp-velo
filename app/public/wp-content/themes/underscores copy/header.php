@@ -11,7 +11,7 @@
 
 ?>
 
-<!--  Header -->
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
