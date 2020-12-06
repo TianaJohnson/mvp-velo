@@ -28,3 +28,10 @@ Stack trace:
 #4 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-includes/template-loader.php(106): include('/Users/tianajoh...')
 #5 /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-blog-header.php(19): require_once('/Users/tianajoh...')
 #6 /Users/tianajohnson/Local Sites/mvp-blog/app/public/index.php(17) in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/template-parts/content-page.php on line 38
+[06-Dec-2020 01:52:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 01:52:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 01:52:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 01:52:38 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 12:23:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 12:25:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
+[06-Dec-2020 12:27:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/tianajohnson/Local Sites/mvp-blog/app/public/wp-content/themes/underscores copy/functions.php on line 228
