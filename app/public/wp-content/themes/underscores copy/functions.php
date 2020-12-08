@@ -217,7 +217,11 @@ $args = array(
 
 	   function register_acf_block_type(){
 		   acf_register_block_type( array (
-			   
-		   ))
+			   'name' => 'new new',
+			   'title' => __('New Block'),
+			   'description' => __(' Who knows'),
+			   'render_template' => 'template_parts/blocks/...php',
+			   'icon' => 'new_new'
+		   ));
 	   }
    
