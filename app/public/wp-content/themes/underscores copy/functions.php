@@ -210,18 +210,20 @@ $args = array(
 
    //add custom block
 
-	   // Check function exists.
-	   if( function_exists('acf_register_block_type')) {
-		add_action('acf/init', 'register_acf_block_type');
-	   }
+   	     // Check function exists.
+			if( function_exists('acf_register_block_type')) {
+				add_action('acf/init', 'register_acf_block_types');
+			   }
 
-	   function register_acf_block_type(){
+	   function register_acf_block_types(){
 		   acf_register_block_type( array (
 			   'name' => 'new new',
 			   'title' => __('New Block'),
 			   'description' => __(' Who knows'),
 			   'render_template' => 'template_parts/blocks/...php',
 			   'icon' => 'new_new'
-		   ));
+		   )
+		);
 	   }
+
    
